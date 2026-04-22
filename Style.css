@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #4B2E2A;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo1 {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+.site-title {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.home {
+    text-align: center;
+    padding: 60px;
+}
+
+.logo {
+    width: 700px;
+    height: 700px;
+}
+
+.section-title {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, cursive;
+    color:  black;
+    margin-top: 40px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    background-color: #4B2E2A;
+}
+
+.box {
+    margin: 15px;
+    text-align: center;
+}
+
+.box img {
+    width: 400px;
+    height: 200px;
+}
+
+.Milk-Tea-title {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive;
+    color: #0066cc;
+    margin-top: 40px;
+}
+
+.Milk-Tea-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Milk-Tea-products {
+    display: list-item;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Milk-Tea-box {
+    margin: 15px;
+    text-align: center;
+}
+
+.Milk-Tea img {
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px;
+}
+
+/* Fixed float styling with proper spacing and responsive behavior */
+        .float-img {
+            float: left;
+            width: 350px; /* Adjust size as needed */
+            height: auto; /* Preserves image aspect ratio */
+            margin: 0 25px 20px 0; /* Space around image */
+            border-radius: 8px; /* Optional: adds rounded corners like the example */
+            object-fit: cover; /* Prevents image distortion */
+        }
+
+        /* Container to wrap content and control layout */
+        .about {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            overflow: auto; /* Clears float automatically */
+        }
+
+        /* Heading styling for consistency */
+        h2 {
+            font-size: 2rem;
+            margin-top: 0;
+            color: #2d2d2d;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: #3a3a3a;
+        }
+
+        /* Text and list styling */
+        p {
+            line-height: 1.6;
+            font-size: 1rem;
+            color: #444;
+        }
+
+        ul {
+            list-style-position: inside;
+            padding-left: 0;
+            line-height: 1.8;
+            color: #444;
+        }
+
+        /* Footer styling */
+        footer {
+            clear: both; /* Ensures footer doesn't float next to image */
+            text-align: center;
+            padding: 20px;
+            background-color: #2d2d2d;
+            color: white;
+            margin-top: 30px;
+        }
+/* Fixed float styling with proper spacing and responsive behavior */
+        .float-img {
+            float: left;
+            width: 350px; /* Adjust size as needed */
+            height: auto; /* Preserves image aspect ratio */
+            margin: 0 25px 20px 0; /* Space around image */
+            border-radius: 8px; /* Optional: adds rounded corners like the example */
+            object-fit: cover; /* Prevents image distortion */
+        }
+
+        /* Container to wrap content and control layout */
+        .Contact {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            overflow: auto; /* Clears float automatically */
+        }
+
+
+        /* Text and list styling */
+        p {
+            line-height: 1.6;
+            font-size: 1rem;
+            color: #444;
+        }
+
+        /* Footer styling */
+        footer {
+            clear: both; /* Ensures footer doesn't float next to image */
+            text-align: center;
+            padding: 20px;
+            background-color: #2d2d2d;
+            color: white;
+            margin-top: 30px;
+        }
+
+footer {
+    background-color: #4B2E2A;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
